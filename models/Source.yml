@@ -1,0 +1,7 @@
+sources:
+  - name: dbt_source
+    database: dbt_project
+    schema: dbt
+    tables:
+      - name: emp
+      - name: dept
