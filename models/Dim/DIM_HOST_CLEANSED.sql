@@ -1,5 +1,5 @@
 WITH SRC_HOSTS AS(
-    SELECT * FROM {{REF('src_hosts')}}
+    SELECT * FROM {{ref('src_hosts')}}
 )
 SELECT 
 ID, 
