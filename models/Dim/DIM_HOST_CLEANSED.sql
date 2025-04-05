@@ -1,3 +1,6 @@
+{{ config(materialized='table') }}
+
+
 WITH SRC_HOSTS AS(
     SELECT * FROM {{ref('src_hosts')}}
 )
