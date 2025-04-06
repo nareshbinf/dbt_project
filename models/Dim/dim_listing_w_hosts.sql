@@ -2,7 +2,7 @@ with l as (
     select * from {{ref('dim_listing_cleansed')}}
 ),
 
-l as (
+h as (
     select * from {{ref('DIM_HOST_CLEANSED')}}
 )
 
