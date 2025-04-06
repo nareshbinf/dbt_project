@@ -11,5 +11,5 @@ with src_reviews as(
 select * from src_reviews
 where REVIEW_TEXT IS NOT NULL
 {% if is_incremental() %}
-    and review_date > (select max(review_date) from {{this}})
+    and review_date > (select max(review_date) from {{ this }})
 {% endif %}
