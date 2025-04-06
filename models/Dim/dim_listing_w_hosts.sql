@@ -7,7 +7,7 @@ h as (
 )
 
 select 
-l.ID as listing_id, l.NAME as listing_name, l.ROOM_TYPE, l.MINIMUM_NIGHTS, l.PRICE,
+l.ID as listing_id, l.NAME as listing_name, l.ROOM_TYPE, l.MINIMUM_NIGHTS, l.PRICE_num,
 l.HOST_ID, h.NAME as HOST_NAME, 
 h.IS_SUPERHOST AS host_is_superhost, l.CREATED_AT, 
 GREATEST(l.UPDATED_AT, h.UPDATED_AT) as UPDATED_AT
