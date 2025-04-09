@@ -1,5 +1,5 @@
 sources:
-  - name: dbt
+  -name: dbt
   schema: public
     tables:
       -name: listings
