@@ -1,9 +1,9 @@
 sources:
   - name: dbt
-  schmea: public
+  schema: public
   tables:
     -name: listings
-    indetifier: raw_listings
+    identifier: raw_listings
 
     -name: hosts
     identifier: raw_hosts
