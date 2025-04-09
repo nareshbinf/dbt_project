@@ -1,12 +1,12 @@
 sources:
   - name: dbt
   schema: public
-  tables:
-    -name: listings
-    identifier: raw_listings
+    tables:
+      -name: listings
+      identifier: raw_listings
 
-    -name: hosts
-    identifier: raw_hosts
+      -name: hosts
+      identifier: raw_hosts
 
-    -name: reviews
-    identifier: raw_reviews
+      -name: reviews
+      identifier: raw_reviews
