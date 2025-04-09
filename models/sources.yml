@@ -1,0 +1,12 @@
+sources:
+  - name: dbt
+  schmea: public
+  tables:
+    -name: listings
+    indetifier: raw_listings
+
+    -name: hosts
+    identifier: raw_hosts
+
+    -name: reviews
+    identifier: raw_reviews
