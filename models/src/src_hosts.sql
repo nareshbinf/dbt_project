@@ -1,6 +1,6 @@
 
  WITH RAW_HOSTS AS (
- SELECT * FROM {{ source('dbt', 'hosts') }}
+ SELECT * FROM dbt.public.RAW_HOSTS
  )
  SELECT 
  ID, NAME, IS_SUPERHOST, CREATED_AT, UPDATED_AT
