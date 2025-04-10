@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: DBT
-  schema: PUBLIC
-  tables:
+    schema: PUBLIC
+    tables:
     - name: listings
-    identifier: RAW_LISTINGS
+      identifier: RAW_LISTINGS
