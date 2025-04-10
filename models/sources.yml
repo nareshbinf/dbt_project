@@ -1,14 +1,8 @@
 version: 2
 
 sources:
-  -name: dbt
-  schema: public
-    tables:
-      -name: listings
-      identifier: raw_listings
-
-      -name: hosts
-      identifier: raw_hosts
-
-      -name: reviews
-      identifier: raw_reviews
+  -name: DBT
+  schema: PUBLIC
+  tables:
+    -name: listings
+    identifier: RAW_LISTINGS
