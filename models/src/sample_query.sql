@@ -1,1 +1,1 @@
-SELECT * FROM {{ source('DBT', 'listings') }}
+SELECT * FROM {{ source('DBT', 'listings') }};
