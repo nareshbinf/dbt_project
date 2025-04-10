@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  -name: DBT
+  - name: DBT
   schema: PUBLIC
   tables:
-    -name: listings
+    - name: listings
     identifier: RAW_LISTINGS
