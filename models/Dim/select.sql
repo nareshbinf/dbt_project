@@ -1,2 +1,2 @@
 --select * from dbt.public.customers;
-select * from public.orders
+--select * from public.orders
