@@ -4,5 +4,5 @@ sources:
   - name: DBT
     schema: PUBLIC
     tables:
-    - name: listings
-      identifier: RAW_LISTINGS
+    - name: CUSTOMERS
+    - name: ORDERS
