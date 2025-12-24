@@ -1,4 +1,4 @@
 select CUSTOMER_ID,
 trim(upper(CUSTOMER_NAME)) as CUSTOMER_NAME,
 country
-from {{source('raw','CUSTOMERS')}}
+from {{source('public','CUSTOMERS')}}
