@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: DBT
-    schema: PUBLIC
-    tables:
-    - name: CUSTOMERS
-    - name: ORDERS
