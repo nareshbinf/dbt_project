@@ -37,3 +37,10 @@ models:
   my_new_project:
     Dim:
       materialized: table
+
+
+models:
+  dbt_project:          # your project name
+    staging:
+      +schema: STAGING
+      +materialized: table
