@@ -1,4 +1,4 @@
-{{config(materialized='table')}}
+{{config(materialized='view')}}
 
 SELECT * FROM (
  SELECT O_ORDERDATE AS ORDER_DATE, 
